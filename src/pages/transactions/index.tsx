@@ -5,13 +5,15 @@ import {
   TransactionsTable,
   TrasactionContainer,
 } from "./styles";
-
+import { SearchForm } from "../../components/SearchForm";
 export const Transactions = () => {
   return (
     <div>
       <Header />
       <Summary />
+
       <TrasactionContainer>
+        <SearchForm />
         <TransactionsTable>
           <tbody>
             <tr>
