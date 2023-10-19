@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "entrada",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "'2023-10-19T00:47:11.864Z'"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "saida",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "'2023-10-19T00:47:11.864Z'"
+    },
+    {
+      "id": 3,
+      "description": "Salario",
+      "type": "entrada",
+      "category": "Trabalho",
+      "price": 1200,
+      "createdAt": "'2023-10-19T00:47:11.864Z'"
+    },
+    {
+      "id": 4,
+      "description": "Clonezepam",
+      "type": "saida",
+      "category": "Saude",
+      "price": 35,
+      "createdAt": "'2023-10-19T00:47:11.864Z'"
+    },
+    {
+      "id": 5,
+      "description": "Alprazolam",
+      "type": "saida",
+      "category": "Saude",
+      "price": 45,
+      "createdAt": "'2023-10-19T00:47:11.864Z'"
+    }
+  ]
+}
