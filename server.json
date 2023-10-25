@@ -22,7 +22,7 @@
       "type": "entrada",
       "category": "Trabalho",
       "price": 1200,
-      "createdAt": "'2023-10-19T00:47:11.864Z'"
+      "createdAt": "2023-10-19T00:47:11.864Z"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "type": "saida",
       "category": "Saude",
       "price": 35,
-      "createdAt": "'2023-10-19T00:47:11.864Z'"
+      "createdAt": "2023-10-19T00:47:11.864Z"
     },
     {
       "id": 5,
@@ -38,7 +38,24 @@
       "type": "saida",
       "category": "Saude",
       "price": 45,
-      "createdAt": "'2023-10-19T00:47:11.864Z'"
+      "createdAt": "2023-10-19T00:47:11.864Z"
+    },
+
+    {
+      "id": 6,
+      "description": "Processador",
+      "type": "saida",
+      "category": "Compras",
+      "price": 500,
+      "createdAt": "2023-10-19T00:47:11.864Z"
+    },
+    {
+      "id": 6,
+      "description": "Site",
+      "type": "Entrada",
+      "category": "Compras",
+      "price": 200,
+      "createdAt": "2023-10-19T00:47:11.864Z"
     }
   ]
 }
