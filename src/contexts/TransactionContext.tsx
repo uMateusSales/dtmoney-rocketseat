@@ -32,8 +32,6 @@ export const TranscationsProvider = ({
       const data = await response.json();
 
       setTransactions(data);
-
-      console.log(data);
     } catch (error) {
       console.log(error);
     }
