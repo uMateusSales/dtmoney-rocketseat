@@ -13,11 +13,12 @@ import { ArrowCircleDown, ArrowCircleUp, X } from "phosphor-react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { api } from "../../lib/axios";
 
 const newTransactionFormSchema = z.object({
   description: z.string(),
   price: z.coerce.number(),
-
+  type: z.enum(["entrada", "saida"]).default("entrada"),
   category: z.string(),
 });
 
@@ -33,13 +34,7 @@ export const NewTransactionModal = () => {
   });
 
   const handleNewTransaction = async (data: NewTransactionFormInputs) => {
-    try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-
-      console.log(data);
-    } catch (error) {
-      console.log(error);
-    }
+    console.log(data);
   };
 
   return (
