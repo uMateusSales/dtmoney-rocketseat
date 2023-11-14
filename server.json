@@ -40,7 +40,6 @@
       "price": 45,
       "createdAt": "2023-10-19T00:47:11.864Z"
     },
-
     {
       "id": 6,
       "description": "Processador",
@@ -56,6 +55,78 @@
       "category": "Compras",
       "price": 200,
       "createdAt": "2023-10-19T00:47:11.864Z"
+    },
+    {
+      "description": "TesteServer",
+      "price": 70,
+      "type": "entrada",
+      "category": "teste",
+      "createdAt": "2023-11-09T00:33:25.866Z",
+      "id": 8
+    },
+    {
+      "description": "Plug",
+      "price": 100,
+      "type": "entrada",
+      "category": "recreio",
+      "createdAt": "2023-11-09T00:38:09.239Z",
+      "id": 9
+    },
+    {
+      "description": "Cafe da manha semanal",
+      "price": 20,
+      "createdAt": "2023-11-09T01:06:18.814Z",
+      "category": "Comida",
+      "type": "entrada",
+      "id": 10
+    },
+    {
+      "description": "Teste create no nontexo",
+      "price": 45,
+      "createdAt": "2023-11-09T01:39:02.342Z",
+      "category": "teste",
+      "type": "entrada",
+      "id": 11
+    },
+    {
+      "description": "Custos de site",
+      "price": 14000,
+      "createdAt": "2023-11-09T02:22:35.682Z",
+      "category": "Site",
+      "type": "entrada",
+      "id": 12
+    },
+    {
+      "description": "Custos de site",
+      "price": 2999,
+      "createdAt": "2023-11-09T02:29:54.490Z",
+      "category": "Site",
+      "type": "entrada",
+      "id": 13
+    },
+    {
+      "description": "dsadsa",
+      "price": 45,
+      "createdAt": "2023-11-09T02:30:14.727Z",
+      "category": "teste",
+      "type": "entrada",
+      "id": 14
+    },
+    {
+      "description": "Custos de site",
+      "price": 45,
+      "createdAt": "2023-11-09T02:50:03.628Z",
+      "category": "Site",
+      "type": "entrada",
+      "id": 15
+    },
+    {
+      "description": "Novo teste",
+      "price": 30000,
+      "type": "saida",
+      "category": "teste",
+      "createdAt": "2023-11-14T01:13:03.367Z",
+      "id": 16
     }
   ]
 }
