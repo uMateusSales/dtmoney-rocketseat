@@ -14,7 +14,7 @@ interface CreateTransactionProps {
   price: number;
   type: "entrada" | "saida";
   category: string;
-  createdAt: number;
+  createdAt: string;
 }
 interface TransactionContextType {
   transactions: Transaction[];
