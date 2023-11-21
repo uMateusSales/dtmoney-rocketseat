@@ -127,6 +127,21 @@
       "category": "teste",
       "createdAt": "2023-11-14T01:13:03.367Z",
       "id": 16
+    },
+    {
+      "description": "cachorro",
+      "price": 32,
+      "type": "entrada",
+      "category": "Raçao",
+      "createdAt": "2023-11-20T22:09:32.059Z",
+      "id": 17
+    },
+    {
+      "description": "Cafe",
+      "price": 25,
+      "type": "saida",
+      "category": "Alimento",
+      "id": 18
     }
   ]
 }

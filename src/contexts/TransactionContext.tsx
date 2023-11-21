@@ -9,18 +9,17 @@ interface Transaction {
   category: string;
   createdAt: string;
 }
-
-interface TransactionContextType {
-  transactions: Transaction[];
-  getTransactions: (query?: string) => Promise<void>;
-  createTransaction: (data: CreateTransactionProps) => Promise<void>;
-}
-
 interface CreateTransactionProps {
   description: string;
   price: number;
   type: "entrada" | "saida";
   category: string;
+  createdAt: number;
+}
+interface TransactionContextType {
+  transactions: Transaction[];
+  getTransactions: (query?: string) => Promise<void>;
+  createTransaction: (data: CreateTransactionProps) => Promise<void>;
 }
 
 export const TransactionContext = createContext<TransactionContextType>(
