@@ -1,155 +1,36 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "Desenvolvimento de site",
-      "type": "entrada",
-      "category": "Venda",
-      "price": 14000,
-      "createdAt": "'2023-10-19T00:47:11.864Z'"
-    },
-    {
-      "id": 2,
-      "description": "Hamburguer",
-      "type": "saida",
-      "category": "Alimentação",
-      "price": 50,
-      "createdAt": "'2023-10-19T00:47:11.864Z'"
-    },
-    {
-      "id": 3,
-      "description": "Salario",
-      "type": "entrada",
-      "category": "Trabalho",
-      "price": 1200,
-      "createdAt": "2023-10-19T00:47:11.864Z"
-    },
-    {
-      "id": 4,
-      "description": "Clonezepam",
-      "type": "saida",
-      "category": "Saude",
-      "price": 35,
-      "createdAt": "2023-10-19T00:47:11.864Z"
-    },
-    {
-      "id": 5,
-      "description": "Alprazolam",
-      "type": "saida",
-      "category": "Saude",
-      "price": 45,
-      "createdAt": "2023-10-19T00:47:11.864Z"
-    },
-    {
-      "id": 6,
-      "description": "Processador",
-      "type": "saida",
-      "category": "Compras",
-      "price": 500,
-      "createdAt": "2023-10-19T00:47:11.864Z"
-    },
-    {
-      "id": 7,
-      "description": "Site",
-      "type": "Entrada",
-      "category": "Compras",
-      "price": 200,
-      "createdAt": "2023-10-19T00:47:11.864Z"
-    },
-    {
-      "description": "TesteServer",
-      "price": 70,
-      "type": "entrada",
-      "category": "teste",
-      "createdAt": "2023-11-09T00:33:25.866Z",
-      "id": 8
-    },
-    {
-      "description": "Plug",
-      "price": 100,
-      "type": "entrada",
-      "category": "recreio",
-      "createdAt": "2023-11-09T00:38:09.239Z",
-      "id": 9
-    },
-    {
-      "description": "Cafe da manha semanal",
-      "price": 20,
-      "createdAt": "2023-11-09T01:06:18.814Z",
-      "category": "Comida",
-      "type": "entrada",
-      "id": 10
-    },
-    {
-      "description": "Teste create no nontexo",
-      "price": 45,
-      "createdAt": "2023-11-09T01:39:02.342Z",
-      "category": "teste",
-      "type": "entrada",
-      "id": 11
-    },
-    {
-      "description": "Custos de site",
-      "price": 14000,
-      "createdAt": "2023-11-09T02:22:35.682Z",
-      "category": "Site",
-      "type": "entrada",
-      "id": 12
-    },
-    {
-      "description": "Custos de site",
-      "price": 2999,
-      "createdAt": "2023-11-09T02:29:54.490Z",
-      "category": "Site",
-      "type": "entrada",
-      "id": 13
-    },
-    {
-      "description": "dsadsa",
-      "price": 45,
-      "createdAt": "2023-11-09T02:30:14.727Z",
-      "category": "teste",
-      "type": "entrada",
-      "id": 14
-    },
-    {
-      "description": "Custos de site",
-      "price": 45,
-      "createdAt": "2023-11-09T02:50:03.628Z",
-      "category": "Site",
-      "type": "entrada",
-      "id": 15
-    },
-    {
-      "description": "Novo teste",
-      "price": 30000,
-      "type": "saida",
-      "category": "teste",
-      "createdAt": "2023-11-14T01:13:03.367Z",
-      "id": 16
-    },
-    {
-      "description": "cachorro",
-      "price": 32,
-      "type": "entrada",
-      "category": "Raçao",
-      "createdAt": "2023-11-20T22:09:32.059Z",
-      "id": 17
-    },
-    {
-      "description": "Cafe",
-      "price": 25,
-      "type": "saida",
-      "category": "Alimento",
-      "id": 18
-    },
-    {
       "description": "nova transação",
       "price": 44,
       "type": "entrada",
       "category": "teste",
       "createdAt": "20/11/2023, 22:43:17",
-      "id": 19
+      "id": 1
+    },
+    {
+      "description": "Ração",
+      "price": 32,
+      "type": "saida",
+      "category": "Cachorro",
+      "createdAt": "21/11/2023, 20:46:33",
+      "id": 2
+    },
+    {
+      "description": "Desenvolvimento de site",
+      "price": 400,
+      "type": "entrada",
+      "category": "Freelance",
+      "createdAt": "21/11/2023, 23:12:52",
+      "id": 3
+    },
+    {
+      "description": "Remedios",
+      "price": 100,
+      "type": "saida",
+      "category": "Saude",
+      "createdAt": "21/11/2023, 23:13:06",
+      "id": 4
     }
   ]
 }

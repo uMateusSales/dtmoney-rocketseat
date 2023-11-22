@@ -8,7 +8,7 @@ import {
 import { SearchForm } from "../../components/SearchForm";
 import { useContext } from "react";
 import { TransactionContext } from "../../contexts/TransactionContext";
-import { FormatarPreço, FormatarData } from "../../utils/formater";
+import { FormatarPreço } from "../../utils/formater";
 
 export const Transactions = () => {
   const { transactions } = useContext(TransactionContext);
